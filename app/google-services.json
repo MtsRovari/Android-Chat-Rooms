@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "300572265119",
+    "firebase_url": "https://social-media-dca30.firebaseio.com",
+    "project_id": "social-media-dca30",
+    "storage_bucket": "social-media-dca30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300572265119:android:91e94fd9291e9ac6",
+        "android_client_info": {
+          "package_name": "com.rozdoum.socialcomponents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300572265119-i8hgughrh2i020f30ieb5e805rh6fbv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8noEdC-aCVzQCkCy2VcEL--IIaxpMNR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300572265119-i8hgughrh2i020f30ieb5e805rh6fbv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
