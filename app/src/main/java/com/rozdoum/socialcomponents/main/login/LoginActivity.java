@@ -17,8 +17,11 @@
 package com.rozdoum.socialcomponents.main.login;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.view.Window;
+import android.view.WindowManager;
 
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -61,6 +64,12 @@ public class LoginActivity extends BaseActivity<LoginView, LoginPresenter> imple
         setContentView(R.layout.activity_login);
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            Window window = getWindow();
+            window.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
         }
 
         initGoogleSignIn();

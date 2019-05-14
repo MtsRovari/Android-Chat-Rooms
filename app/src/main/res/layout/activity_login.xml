@@ -8,24 +8,27 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/login_bg_gradient"
+        android:src="@drawable/background_image"
         android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/login_screen_title_margin"
+        android:text="@string/app_name"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/black"
+        style="@style/TextAppearance.MainTitle" />
 
     <LinearLayout
         android:id="@+id/buttonsContainer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="bottom|center_horizontal"
         android:layout_marginBottom="@dimen/login_screen_content_offset_center_top"
         android:gravity="center"
         android:orientation="vertical">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/login_screen_title_margin"
-            android:text="@string/app_name"
-            style="@style/TextAppearance.MainTitle" />
 
         <RelativeLayout
             android:id="@+id/facebookSignInButton"

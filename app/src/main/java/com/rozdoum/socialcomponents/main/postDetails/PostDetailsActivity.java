@@ -48,6 +48,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
@@ -527,8 +528,9 @@ public class PostDetailsActivity extends BaseActivity<PostDetailsView, PostDetai
                     mode.finish(); // Action picked, so close the CAB
                     return true;
                 case R.id.deleteMenuItem:
-                    presenter.removeComment(selectedComment.getId());
-                    mode.finish();
+                    Toast.makeText(PostDetailsActivity.this, "really?", Toast.LENGTH_SHORT).show();
+//                    presenter.removeComment(selectedComment.getId());
+//                    mode.finish();
                     return true;
                 default:
                     return false;
