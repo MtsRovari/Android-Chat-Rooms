@@ -44,7 +44,8 @@
         <activity
             android:name=".main.login.LoginActivity"
             android:label="@string/title_activity_login"
-            android:theme="@style/AppCompat.NoActionBar" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDarkTheme" />
         <activity
             android:name="com.rozdoum.socialcomponents.main.editProfile.createProfile.CreateProfileActivity"
             android:configChanges="orientation|screenSize"

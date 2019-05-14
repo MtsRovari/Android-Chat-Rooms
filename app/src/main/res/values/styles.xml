@@ -12,6 +12,11 @@
         <item name="colorAccent">@color/white</item>
     </style>
 
+    <!--Status bar white with dark icons to initialize activity-->
+    <style name="AppDarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
     <style name="AppCompat.Black.NoActionBar" parent="Theme.AppCompat.NoActionBar">
         <item name="android:colorBackground">@android:color/background_dark</item>
         <item name="android:windowBackground">@android:color/background_dark</item>
