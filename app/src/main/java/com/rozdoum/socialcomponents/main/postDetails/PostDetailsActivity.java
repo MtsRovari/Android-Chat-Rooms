@@ -20,6 +20,7 @@ package com.rozdoum.socialcomponents.main.postDetails;
 import android.animation.Animator;
 import android.annotation.TargetApi;
 import android.app.ActivityOptions;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
@@ -27,6 +28,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.view.ActionMode;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
@@ -528,9 +530,7 @@ public class PostDetailsActivity extends BaseActivity<PostDetailsView, PostDetai
                     mode.finish(); // Action picked, so close the CAB
                     return true;
                 case R.id.deleteMenuItem:
-                    Toast.makeText(PostDetailsActivity.this, "really?", Toast.LENGTH_SHORT).show();
-//                    presenter.removeComment(selectedComment.getId());
-//                    mode.finish();
+                    showAlertDialog(mode, selectedComment);
                     return true;
                 default:
                     return false;
@@ -542,6 +542,17 @@ public class PostDetailsActivity extends BaseActivity<PostDetailsView, PostDetai
         public void onDestroyActionMode(ActionMode mode) {
             mActionMode = null;
         }
+    }
+
+    private void showAlertDialog(ActionMode mode, Comment selectedComment) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Deseja realmente excluir o comentário?");
+        builder.setPositiveButton("SIM", (dialogInterface, i) -> {
+                presenter.removeComment(selectedComment.getId());
+                mode.finish();
+        });
+        builder.setNegativeButton("NÃO", null);
+        builder.show();
     }
 
     Animator.AnimatorListener authorAnimatorListener = new Animator.AnimatorListener() {

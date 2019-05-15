@@ -17,107 +17,281 @@
 
 <resources>
     <string name="app_name">Social App</string>
-    <string name="label_create_post_activity">Create post</string>
-    <string name="label_post_detail_activity">Post detail</string>
-    <string name="label_image_detail_activity">Image</string>
-    <string name="title_activity_login">Sign in</string>
-    <string name="title_activity_create_profile">Create profile</string>
-    <string name="title_activity_profile">Profile</string>
-    <string name="title_activity_edit_profile">Edit profile</string>
-    <string name="title_activity_edit_post">Edit post</string>
+    <!--<string name="label_create_post_activity">Create post</string>-->
+    <!--<string name="label_post_detail_activity">Post detail</string>-->
+    <!--<string name="label_image_detail_activity">Image</string>-->
+    <!--<string name="title_activity_login">Sign in</string>-->
+    <!--<string name="title_activity_create_profile">Create profile</string>-->
+    <!--<string name="title_activity_profile">Profile</string>-->
+    <!--<string name="title_activity_edit_profile">Edit profile</string>-->
+    <!--<string name="title_activity_edit_post">Edit post</string>-->
+    <!--<string name="title_activity_following_posts">Following posts</string>-->
+
+    <!--<string name="text_take_photo">Take photo</string>-->
+    <!--<string name="text_pick_photo">Pick from Gallery</string>-->
+    <!--<string name="button_title_cancel">Cancel</string>-->
+    <!--<string name="button_ok">OK</string>-->
+
+    <!--<string name="hint_title">Title</string>-->
+    <!--<string name="hint_description">Description</string>-->
+
+    <!--<string name="message_post_was_created">Post was created</string>-->
+    <!--<string name="error_fail_create_post">Fail to create post</string>-->
+    <!--<string name="error_fail_load_image">Fail to load image</string>-->
+    <!--<string name="error_fail_crop_image">Fail to crop image</string>-->
+    <!--<string name="error_smaller_image">Image is too small. Required image size 100x100 px</string>-->
+    <!--<string name="error_incorrect_file_type">Incorrect file type</string>-->
+    <!--<string name="error_bigger_file">File size is bigger than 10Mb</string>-->
+    <!--<string name="message_creating_post">Creating post …</string>-->
+    <!--<string name="message_saving">Saving …</string>-->
+    <!--<string name="warning_empty_image">Image is required</string>-->
+    <!--<string name="warning_empty_title">Title is required</string>-->
+    <!--<string name="warning_empty_description">Description is required</string>-->
+    <!--<string name="error_post_title_length">Max length of the title should be less than 255 symbols</string>-->
+    <!--<string name="error_fail_remove_post">Fail to remove post</string>-->
+    <!--<string name="message_post_was_removed">Post was removed</string>-->
+    <!--<string name="error_fail_update_post">Fail to update post</string>-->
+    <!--<string name="error_post_was_removed">Post was removed</string>-->
+    <!--<string name="confirm_deletion_post">Delete this post?</string>-->
+
+    <!--<string name="comment_text_hint">Enter your comment …</string>-->
+    <!--<string name="button_post_comment">Post comment</string>-->
+
+    <!--<string name="label_comments">Comments (%1$d):</string>-->
+
+    <!--<string name="create_post_menu_label">Post</string>-->
+    <!--<string name="create_post_full_menu_label">Create post</string>-->
+    <!--<string name="sign_out_menu_label">Sign out</string>-->
+    <!--<string name="edit_profile_menu_label">Edit profile</string>-->
+    <!--<string name="button_title_save">Done</string>-->
+    <!--<string name="button_title_continue">Continue</string>-->
+
+    <!--&lt;!&ndash; Strings related to registration and login &ndash;&gt;-->
+    <!--<string name="prompt_email">Email</string>-->
+    <!--<string name="prompt_name">Name</string>-->
+    <!--<string name="prompt_password">Password</string>-->
+    <!--<string name="prompt_conf_password">Confirm password</string>-->
+    <!--<string name="action_create_profile">Continue</string>-->
+    <!--<string name="error_field_required">This field is required</string>-->
+    <!--<string name="error_profile_name_length">Max length of the name should be less than 120 symbols</string>-->
+    <!--<string name="error_invalid_email">This email address is invalid</string>-->
+    <!--<string name="error_confirm_password">Wrong password confirmation</string>-->
+    <!--<string name="action_sign_in">Sign in</string>-->
+    <!--<string name="permissions_not_granted">Cancelling, required permissions are not granted</string>-->
+    <!--<string name="error_fail_create_profile">Fail to create profile</string>-->
+    <!--<string name="error_fail_update_profile">Fail to update profile</string>-->
+    <!--<string name="text_login">Thank you for using our application! Please, sign in for continue your action.</string>-->
+    <!--<string name="error_authentication">Authentication failed.</string>-->
+    <!--<string name="error_google_play_services">Google Play Services error.</string>-->
+    <!--<string name="button_login_with_facebook">Login with facebook</string>-->
+    <!--<string name="button_login_with_google">Login with google</string>-->
+
+
+    <!--<string name="loading">Loading …</string>-->
+    <!--<string name="removing">Removing …</string>-->
+    <!--<string name="error_general">Somthing went wrong.</string>-->
+    <!--<string name="error_general_post">Somthing went wrong with post, id: %1$s</string>-->
+    <!--<string name="internet_connection_failed">No internet connection</string>-->
+    <!--<string name="press_once_again_to_exit">Press once again to exit</string>-->
+
+    <!--&lt;!&ndash; Strings related to login &ndash;&gt;-->
+
+    <!--<string name="error_invalid_password">This password is too short</string>-->
+    <!--<string name="error_incorrect_password">This password is incorrect</string>-->
+    <!--<string name="permission_rationale">"Contacts permissions are needed for providing email-->
+        <!--completions."-->
+    <!--</string>-->
+
+    <!--<string name="profile_menu_item">Profile</string>-->
+    <!--<string name="collapse_text_label">show less</string>-->
+    <!--<string name="expand_text_label">show more</string>-->
+    <!--<string name="add_complain">Complain</string>-->
+    <!--<string name="edit_post_menu">Edit post</string>-->
+    <!--<string name="delete_post_menu">Delete post</string>-->
+    <!--<string name="complain_text">You can complain to this post if it contains violence,-->
+        <!--bullying and threats, hate speech, tragic events and sexually explicit contents.-->
+        <!--Nobody will see the post if you complain to it. You can\'t delete your complain.</string>-->
+
+    <!--<string name="send_comment_button_label">Send</string>-->
+    <!--<string name="posted_by_label">Posted by:</string>-->
+
+    <!--<plurals name="posts_counter_format">-->
+        <!--<item quantity="one">post</item>-->
+        <!--<item quantity="other">posts</item>-->
+    <!--</plurals>-->
+
+    <!--<plurals name="likes_counter_format">-->
+        <!--<item quantity="one">like</item>-->
+        <!--<item quantity="other">likes</item>-->
+    <!--</plurals>-->
+
+    <!--<plurals name="followers_counter_format">-->
+        <!--<item quantity="one">follower</item>-->
+        <!--<item quantity="other">followers</item>-->
+    <!--</plurals>-->
+
+    <!--<plurals name="followings_counter_format">-->
+        <!--<item quantity="one">following</item>-->
+        <!--<item quantity="other">followings</item>-->
+    <!--</plurals>-->
+
+    <!--<string name="posts_label">Posts:</string>-->
+    <!--<string name="complain_sent">Complain was sent successfully</string>-->
+    <!--<string name="now_time_range">now</string>-->
+
+    <!--<string name="duration_minutes_shortest">%1$d m</string>-->
+    <!--<string name="duration_hours_shortest">%1$d h</string>-->
+    <!--<string name="duration_days_shortest">%1$d d</string>-->
+    <!--<string name="duration_week_shortest">%1$d w</string>-->
+
+    <!--<string name="post_image_transition_name" translatable="false">post_image_transition</string>-->
+    <!--<string name="post_author_image_transition_name" translatable="false">post_author_image_transition_name</string>-->
+    <!--<string name="message_new_post_was_created">New post was created</string>-->
+
+    <!--<plurals name="new_posts_counter_format">-->
+        <!--<item quantity="one">%1$d new post</item>-->
+        <!--<item quantity="other">%1$d new posts</item>-->
+    <!--</plurals>-->
+
+    <!--<string name="edit_comment_menu_item">Edit</string>-->
+    <!--<string name="delete_comment_menu_item">Delete</string>-->
+    <!--<string name="message_comment_was_removed">Comment was removed</string>-->
+    <!--<string name="message_comment_was_edited">Comment was edited</string>-->
+    <!--<string name="title_edit_comment">Edit comment</string>-->
+
+    <!--&lt;!&ndash;Follow&ndash;&gt;-->
+    <!--<string name="button_follow_title">Follow</string>-->
+    <!--<string name="button_follow_back_title">Follow back</string>-->
+    <!--<string name="button_following">Following</string>-->
+    <!--<string name="unfollow_user_message">Unfollow %1$s?</string>-->
+    <!--<string name="button_title_unfollow">Unfollow</string>-->
+    <!--<string name="message_following_posts_empty">Follow somebody to see his new posts</string>-->
+    <!--<string name="following_post_menu_item">Following Posts</string>-->
+
+    <!--&lt;!&ndash;Users list&ndash;&gt;-->
+    <!--<string name="title_followers">Followers</string>-->
+    <!--<string name="title_followings">Followings</string>-->
+    <!--<string name="message_empty_list">You don\'t have any %1$s yet</string>-->
+
+    <!--&lt;!&ndash;Search&ndash;&gt;-->
+    <!--<string name="search_menu_item">Search</string>-->
+    <!--<string name="search_hint">Search …</string>-->
+    <!--<string name="posts_tab_title">Posts</string>-->
+    <!--<string name="users_tab_title">Users</string>-->
+    <!--<string name="empty_posts_search_message">No posts found</string>-->
+    <!--<string name="empty_user_search_message">No users found</string>-->
+
+
+    <!--&lt;!&ndash;Firebase errors&ndash;&gt;-->
+    <!--<string name="permission_denied_error">Please check your rules to access the Firebase Realtime Database</string>-->
+
+    <!--&lt;!&ndash;Notifications&ndash;&gt;-->
+    <!--<string name="new_like_channel_name">New Like</string>-->
+    <!--<string name="new_comment_channel_name">New Comment</string>-->
+
+
+
+    <string name="label_create_post_activity">Criar Tópico</string>
+    <string name="label_post_detail_activity">Detalhes do Tópico</string>
+    <string name="label_image_detail_activity">Imagem</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_create_profile">Criar Perfil</string>
+    <string name="title_activity_profile">Perfil</string>
+    <string name="title_activity_edit_profile">Editar Perfil</string>
+    <string name="title_activity_edit_post">Editar Tópico</string>
     <string name="title_activity_following_posts">Following posts</string>
 
-    <string name="text_take_photo">Take photo</string>
-    <string name="text_pick_photo">Pick from Gallery</string>
-    <string name="button_title_cancel">Cancel</string>
+    <string name="text_take_photo">Tirar Foto</string>
+    <string name="text_pick_photo">Pegar da Galeria</string>
+    <string name="button_title_cancel">Cancelar</string>
     <string name="button_ok">OK</string>
 
-    <string name="hint_title">Title</string>
-    <string name="hint_description">Description</string>
+    <string name="hint_title">Título</string>
+    <string name="hint_description">Descrição</string>
 
-    <string name="message_post_was_created">Post was created</string>
-    <string name="error_fail_create_post">Fail to create post</string>
-    <string name="error_fail_load_image">Fail to load image</string>
-    <string name="error_fail_crop_image">Fail to crop image</string>
+    <string name="message_post_was_created">Tópico criado</string>
+    <string name="error_fail_create_post">Falha ao criar tópico</string>
+    <string name="error_fail_load_image">Falha ao carregar imagem</string>
+    <string name="error_fail_crop_image">Falha ao recortar imagem</string>
     <string name="error_smaller_image">Image is too small. Required image size 100x100 px</string>
     <string name="error_incorrect_file_type">Incorrect file type</string>
     <string name="error_bigger_file">File size is bigger than 10Mb</string>
-    <string name="message_creating_post">Creating post …</string>
-    <string name="message_saving">Saving …</string>
-    <string name="warning_empty_image">Image is required</string>
-    <string name="warning_empty_title">Title is required</string>
-    <string name="warning_empty_description">Description is required</string>
+    <string name="message_creating_post">Criando Tópico …</string>
+    <string name="message_saving">Salvando …</string>
+    <string name="warning_empty_image">Imagem é obrigatória</string>
+    <string name="warning_empty_title">Título é obrigatório</string>
+    <string name="warning_empty_description">Descrição é obrigatória</string>
     <string name="error_post_title_length">Max length of the title should be less than 255 symbols</string>
-    <string name="error_fail_remove_post">Fail to remove post</string>
-    <string name="message_post_was_removed">Post was removed</string>
-    <string name="error_fail_update_post">Fail to update post</string>
-    <string name="error_post_was_removed">Post was removed</string>
-    <string name="confirm_deletion_post">Delete this post?</string>
+    <string name="error_fail_remove_post">Falha ao remover Tópico</string>
+    <string name="message_post_was_removed">Tópico removido</string>
+    <string name="error_fail_update_post">Falha ao atualizar Tópico</string>
+    <string name="error_post_was_removed">Tópico removido (error)</string>
+    <string name="confirm_deletion_post">Deletar esse Tópico?</string>
 
-    <string name="comment_text_hint">Enter your comment …</string>
-    <string name="button_post_comment">Post comment</string>
+    <string name="comment_text_hint">Digite seu comentário …</string>
+    <string name="button_post_comment">Postar Comentário</string>
 
-    <string name="label_comments">Comments (%1$d):</string>
+    <string name="label_comments">Comentários (%1$d):</string>
 
-    <string name="create_post_menu_label">Post</string>
-    <string name="create_post_full_menu_label">Create post</string>
+    <string name="create_post_menu_label">Tópico</string>
+    <string name="create_post_full_menu_label">Criar Tópico</string>
     <string name="sign_out_menu_label">Sign out</string>
-    <string name="edit_profile_menu_label">Edit profile</string>
-    <string name="button_title_save">Done</string>
-    <string name="button_title_continue">Continue</string>
+    <string name="edit_profile_menu_label">Editar Perfil</string>
+    <string name="button_title_save">Salvar</string>
+    <string name="button_title_continue">Continuar</string>
 
     <!-- Strings related to registration and login -->
     <string name="prompt_email">Email</string>
-    <string name="prompt_name">Name</string>
-    <string name="prompt_password">Password</string>
-    <string name="prompt_conf_password">Confirm password</string>
-    <string name="action_create_profile">Continue</string>
-    <string name="error_field_required">This field is required</string>
+    <string name="prompt_name">Nome</string>
+    <string name="prompt_password">Senha</string>
+    <string name="prompt_conf_password">Confirmar Senha</string>
+    <string name="action_create_profile">Continuar</string>
+    <string name="error_field_required">Campo obrigatório</string>
     <string name="error_profile_name_length">Max length of the name should be less than 120 symbols</string>
-    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_email">Esse email já existe</string>
     <string name="error_confirm_password">Wrong password confirmation</string>
     <string name="action_sign_in">Sign in</string>
-    <string name="permissions_not_granted">Cancelling, required permissions are not granted</string>
-    <string name="error_fail_create_profile">Fail to create profile</string>
-    <string name="error_fail_update_profile">Fail to update profile</string>
-    <string name="text_login">Thank you for using our application! Please, sign in for continue your action.</string>
-    <string name="error_authentication">Authentication failed.</string>
+    <string name="permissions_not_granted">Cancelando, as permissões necessárias não estão concedidas</string>
+    <string name="error_fail_create_profile">Falha ao criar perfil</string>
+    <string name="error_fail_update_profile">Falha ao atualizar perfil</string>
+    <string name="text_login">Obrigado por usar nosso aplicativo! Por favor, faça o login para continuar  a ação.</string>
+    <string name="error_authentication">Falha na autenticação.</string>
     <string name="error_google_play_services">Google Play Services error.</string>
-    <string name="button_login_with_facebook">Login with facebook</string>
-    <string name="button_login_with_google">Login with google</string>
+    <string name="button_login_with_facebook">Logar com o facebook</string>
+    <string name="button_login_with_google">Logar com o Google</string>
 
 
-    <string name="loading">Loading …</string>
-    <string name="removing">Removing …</string>
-    <string name="error_general">Somthing went wrong.</string>
-    <string name="error_general_post">Somthing went wrong with post, id: %1$s</string>
-    <string name="internet_connection_failed">No internet connection</string>
-    <string name="press_once_again_to_exit">Press once again to exit</string>
+    <string name="loading">Carregando …</string>
+    <string name="removing">Removendo …</string>
+    <string name="error_general">Algo está errado.</string>
+    <string name="error_general_post">Algo está errado com o Tópico, ID: %1$s</string>
+    <string name="internet_connection_failed">Sem conexão com a internet</string>
+    <string name="press_once_again_to_exit">Pressione novamente para sair.</string>
 
     <!-- Strings related to login -->
 
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
+    <string name="error_invalid_password">Senha muito curta</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="permission_rationale">"Permissões de contatos são necessárias para fornecer e-mail
+         conclusões."
     </string>
 
-    <string name="profile_menu_item">Profile</string>
-    <string name="collapse_text_label">show less</string>
-    <string name="expand_text_label">show more</string>
-    <string name="add_complain">Complain</string>
-    <string name="edit_post_menu">Edit post</string>
-    <string name="delete_post_menu">Delete post</string>
+    <string name="profile_menu_item">Perfil</string>
+    <string name="collapse_text_label">mostrar menos</string>
+    <string name="expand_text_label">mostrar mais</string>
+    <string name="add_complain">Reclamar</string>
+    <string name="edit_post_menu">Editar Tópico</string>
+    <string name="delete_post_menu">Deletar Tópico</string>
     <string name="complain_text">You can complain to this post if it contains violence,
         bullying and threats, hate speech, tragic events and sexually explicit contents.
         Nobody will see the post if you complain to it. You can\'t delete your complain.</string>
 
-    <string name="send_comment_button_label">Send</string>
-    <string name="posted_by_label">Posted by:</string>
+    <string name="send_comment_button_label">Enviar</string>
+    <string name="posted_by_label">Autor:</string>
 
     <plurals name="posts_counter_format">
-        <item quantity="one">post</item>
-        <item quantity="other">posts</item>
+        <item quantity="one">tópico</item>
+        <item quantity="other">tópicos</item>
     </plurals>
 
     <plurals name="likes_counter_format">
@@ -126,68 +300,67 @@
     </plurals>
 
     <plurals name="followers_counter_format">
-        <item quantity="one">follower</item>
-        <item quantity="other">followers</item>
+        <item quantity="one">seguidora</item>
+        <item quantity="other">seguidores</item>
     </plurals>
 
     <plurals name="followings_counter_format">
-        <item quantity="one">following</item>
-        <item quantity="other">followings</item>
+        <item quantity="one">seguir</item>
+        <item quantity="other">seguidoras</item>
     </plurals>
 
-    <string name="posts_label">Posts:</string>
-    <string name="complain_sent">Complain was sent successfully</string>
-    <string name="now_time_range">now</string>
+    <string name="posts_label">Tópicos:</string>
+    <string name="complain_sent">Reclamação enviada com sucesso</string>
+    <string name="now_time_range">agora</string>
 
     <string name="duration_minutes_shortest">%1$d m</string>
     <string name="duration_hours_shortest">%1$d h</string>
     <string name="duration_days_shortest">%1$d d</string>
-    <string name="duration_week_shortest">%1$d w</string>
+    <string name="duration_week_shortest">%1$d s</string>
 
     <string name="post_image_transition_name" translatable="false">post_image_transition</string>
     <string name="post_author_image_transition_name" translatable="false">post_author_image_transition_name</string>
-    <string name="message_new_post_was_created">New post was created</string>
+    <string name="message_new_post_was_created">Novo tópico foi criado</string>
 
     <plurals name="new_posts_counter_format">
-        <item quantity="one">%1$d new post</item>
-        <item quantity="other">%1$d new posts</item>
+        <item quantity="one">%1$d novo tópico</item>
+        <item quantity="other">%1$d novos tópicos</item>
     </plurals>
 
-    <string name="edit_comment_menu_item">Edit</string>
-    <string name="delete_comment_menu_item">Delete</string>
-    <string name="message_comment_was_removed">Comment was removed</string>
-    <string name="message_comment_was_edited">Comment was edited</string>
-    <string name="title_edit_comment">Edit comment</string>
+    <string name="edit_comment_menu_item">Editar</string>
+    <string name="delete_comment_menu_item">Deletar</string>
+    <string name="message_comment_was_removed">Comentário removido</string>
+    <string name="message_comment_was_edited">Comentário editado</string>
+    <string name="title_edit_comment">Editar Comentário</string>
 
     <!--Follow-->
-    <string name="button_follow_title">Follow</string>
-    <string name="button_follow_back_title">Follow back</string>
-    <string name="button_following">Following</string>
-    <string name="unfollow_user_message">Unfollow %1$s?</string>
-    <string name="button_title_unfollow">Unfollow</string>
-    <string name="message_following_posts_empty">Follow somebody to see his new posts</string>
-    <string name="following_post_menu_item">Following Posts</string>
+    <string name="button_follow_title">Seguir</string>
+    <string name="button_follow_back_title">Seguir de volta</string>
+    <string name="button_following">Seguindo</string>
+    <string name="unfollow_user_message">Deixar de seguir %1$s?</string>
+    <string name="button_title_unfollow">Deixar de seguir</string>
+    <string name="message_following_posts_empty">Siga alguém para ver suas novas postagens</string>
+    <string name="following_post_menu_item">Tópicos que está seguindo</string>
 
     <!--Users list-->
-    <string name="title_followers">Followers</string>
-    <string name="title_followings">Followings</string>
-    <string name="message_empty_list">You don\'t have any %1$s yet</string>
+    <string name="title_followers">Seguidores</string>
+    <string name="title_followings">Seguindo</string>
+    <string name="message_empty_list">Você não tem nenhum %1$s ainda</string>
 
     <!--Search-->
-    <string name="search_menu_item">Search</string>
-    <string name="search_hint">Search …</string>
-    <string name="posts_tab_title">Posts</string>
-    <string name="users_tab_title">Users</string>
-    <string name="empty_posts_search_message">No posts found</string>
-    <string name="empty_user_search_message">No users found</string>
+    <string name="search_menu_item">Procurar</string>
+    <string name="search_hint">Procurar …</string>
+    <string name="posts_tab_title">Tópicos</string>
+    <string name="users_tab_title">Usuários</string>
+    <string name="empty_posts_search_message">Nenhum Tópico encontrado</string>
+    <string name="empty_user_search_message">Nenhum Usuário encontrado</string>
 
 
     <!--Firebase errors-->
-    <string name="permission_denied_error">Please check your rules to access the Firebase Realtime Database</string>
+    <string name="permission_denied_error">Por favor, verifique "the rules" para acessar o Firebase Realtime Database</string>
 
     <!--Notifications-->
-    <string name="new_like_channel_name">New Like</string>
-    <string name="new_comment_channel_name">New Comment</string>
-
+    <string name="new_like_channel_name">Novo Like</string>
+    <string name="new_comment_channel_name">Novo Comentário</string>
 
 </resources>
