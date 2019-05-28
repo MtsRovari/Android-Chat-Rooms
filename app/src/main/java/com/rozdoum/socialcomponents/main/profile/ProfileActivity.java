@@ -43,6 +43,7 @@ import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
+import com.facebook.login.LoginManager;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.firebase.auth.FirebaseAuth;
@@ -428,6 +429,7 @@ public class ProfileActivity extends BaseActivity<ProfileView, ProfilePresenter>
             case R.id.signOut:
                 LogoutHelper.signOut(mGoogleApiClient, this);
                 startMainActivity();
+                LoginManager.getInstance().logOut();
                 return true;
             case R.id.createPost:
                 presenter.onCreatePostClick();
