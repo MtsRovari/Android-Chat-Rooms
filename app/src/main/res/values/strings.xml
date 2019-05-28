@@ -257,8 +257,8 @@
     <string name="text_login">Obrigado por usar nosso aplicativo! Por favor, faça o login para continuar  a ação.</string>
     <string name="error_authentication">Falha na autenticação.</string>
     <string name="error_google_play_services">Google Play Services error.</string>
-    <string name="button_login_with_facebook">Logar com o facebook</string>
-    <string name="button_login_with_google">Logar com o Google</string>
+    <string name="button_login_with_facebook">Entrar com o facebook</string>
+    <string name="button_login_with_google">Entrar com o Google</string>
 
 
     <string name="loading">Carregando …</string>
@@ -362,5 +362,12 @@
     <!--Notifications-->
     <string name="new_like_channel_name">Novo Like</string>
     <string name="new_comment_channel_name">Novo Comentário</string>
+
+    <string name="wizard_title">Bem Vindo,\nEstudante!</string>
+    <string name="wizard_text_1"><![CDATA[Participe da nossa comunidade!<br/>Aprendendo e Ensinando.]]></string>
+    <string name="wizard_text_2"><![CDATA[Somos uma comunidade focada<br/>em conteúdo educativo.]]></string>
+    <string name="wizard_text_3"><![CDATA[Poupe seu tempo<br/>com o nosso método de filtro.]]></string>
+    <string name="wizard_text_4"><![CDATA[Siga estudantes para receber<br/>seus tópicos em primeira mão.]]></string>
+    <string name="wizard_text_5"><![CDATA[Tudo isso em um único lugar<br/>Cadastre-se Agora!]]></string>
 
 </resources>

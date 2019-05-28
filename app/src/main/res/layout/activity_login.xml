@@ -15,9 +15,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/login_screen_title_margin"
-        android:text="@string/app_name"
+        android:text="@string/wizard_title"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
+        android:textStyle="bold"
         android:textColor="@android:color/black"
         style="@style/TextAppearance.MainTitle" />
 
@@ -33,9 +34,9 @@
         <RelativeLayout
             android:id="@+id/facebookSignInButton"
             android:layout_width="@dimen/base_login_button_width"
-            android:layout_height="@dimen/base_login_button_height"
+            android:layout_height="40dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="@dimen/login_screen_button_margin"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/facebook_button_bg"
             android:elevation="4dp">
 
@@ -60,7 +61,7 @@
         <RelativeLayout
             android:id="@+id/googleSignInButton"
             android:layout_width="@dimen/base_login_button_width"
-            android:layout_height="@dimen/base_login_button_height"
+            android:layout_height="40dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/login_screen_button_margin"
             android:background="@drawable/google_button_bg"

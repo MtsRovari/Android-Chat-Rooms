@@ -5,8 +5,6 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/presentermanager-3.1.0.aar/651284070e1d2515afead7957775d5d2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hannesdorfmann.mosby3/presentermanager/3.1.0/2485cfc15193e50ccf41ac06e83c2b73048f45b/presentermanager-3.1.0-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>
